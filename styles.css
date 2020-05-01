@@ -45,7 +45,9 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     /* добавь сюда свойство font-size */
+    font-size: 30px;
     /* добавь сюда свойство color */
+    color: #1ab798;
 }
 
 .nav-list {
@@ -81,6 +83,7 @@ header {
 
 .main-title {
     padding-top: 300px;
+    /* добавь сюда свойство font-size */
     font-size: 55px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -187,7 +190,8 @@ header {
 .features-intro-text {
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 60px;
+    /* добавь сюда свойство margin-bottom */
+    /* margin-bottom: 60px; */
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 26px;
@@ -206,10 +210,61 @@ header {
 .features-item {
     width: 300px;
     /* добавь сюда свойство margin-bottom */
+    /* margin-bottom: 40px; */
     padding-left: 50px;
 }
 
-/* занятие 3 - секция 3 */
+/* занятие 4 - секция 3 */
+.video-section {
+    /* добавь сюда свойство background-color */
+    /* background-color: #31d4e7; */
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 93%;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 450px;
+    justify-content: space-around;
+}
+
+.video-tittle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    /* добавь сюда свойство color, чтобы оно сочеталось с твоим фоном секции */
+    /* color: white; */
+    /* добавь сюда свойство font-size */
+    /* font-size: 28px; */
+    line-height: 18px;
+    text-align: left;
+    /* добавь сюда свойство margin-bottom */
+    /* margin-bottom: 20px; */
+    padding-top: 85px;
+    text-transform: uppercase;
+
+}
+
+.video-intro {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    /* добавь сюда свойство color, чтобы оно сочеталось с твоим фоном секции */
+    /* color: white; */
+    margin: 0;
+    width: 48%;
+    /* добавь сюда свойство margin-bottom */
+    /* margin-bottom: 24px; */
+    /* добавь сюда свойство font-size */
+    /* font-size: 16px; */
+    line-height: 26px;
+}
+
 /* занятие 4 - секция 4 */
+
 /* занятие 5 - секция 5 */
 /* занятие 6 - секция 6 (ХУТЕР) */
