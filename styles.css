@@ -156,7 +156,7 @@ header {
 
 .features-item:nth-of-type(3)::before {
     /* добавь сюда иконку через свойство background-image */
-    background-image: url('./img/twitter_yellow.png');
+    /* background-image: url('./img/twitter_yellow.png'); */
 }
 
 .features-item:nth-of-type(4)::before {
