@@ -156,7 +156,7 @@ header {
 
 .features-item:nth-of-type(3)::before {
     /* добавь сюда иконку через свойство background-image */
-    /* background-image: url('./img/twitter_yellow.png'); */
+    background-image: url('./img/twitter_yellow.png');
 }
 
 .features-item:nth-of-type(4)::before {
@@ -191,7 +191,7 @@ header {
     width: 90%;
     margin: 0 auto;
     /* добавь сюда свойство margin-bottom */
-    /* margin-bottom: 60px; */
+    margin-bottom: 60px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 26px;
@@ -210,14 +210,14 @@ header {
 .features-item {
     width: 300px;
     /* добавь сюда свойство margin-bottom */
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
     padding-left: 50px;
 }
 
 /* занятие 4 - секция 3 */
 .video-section {
     /* добавь сюда свойство background-color */
-    /* background-color: #31d4e7; */
+    background-color: #07dff7;
 }
 
 .container {
@@ -238,33 +238,93 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     /* добавь сюда свойство color, чтобы оно сочеталось с твоим фоном секции */
-    /* color: white; */
+    color: white;
     /* добавь сюда свойство font-size */
-    /* font-size: 28px; */
+    font-size: 28px;
     line-height: 18px;
     text-align: left;
-    /* добавь сюда свойство margin-bottom */
-    /* margin-bottom: 20px; */
     padding-top: 85px;
+    padding: 30px;
     text-transform: uppercase;
-
 }
 
 .video-intro {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     /* добавь сюда свойство color, чтобы оно сочеталось с твоим фоном секции */
-    /* color: white; */
+    color: white;
     margin: 0;
     width: 48%;
     /* добавь сюда свойство margin-bottom */
-    /* margin-bottom: 24px; */
+    margin-bottom: 24px;
     /* добавь сюда свойство font-size */
-    /* font-size: 16px; */
+    font-size: 16px;
     line-height: 26px;
+    /* добавь сюда свойство border-radius для выделения текста */
+    border: 10px solid red;
 }
 
 /* занятие 4 - секция 4 */
+.ceo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ceo {
+    width: 100px;
+    /* добавь сюда свойство margin-bottom */
+    /* margin-bottom: 35px; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.ceo-photo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    /* добавь сюда свойство border-radius */
+    /* border-radius: 50%; */
+}
+
+.ceo-name {
+    text-align: center;
+    font-weight: 600;
+}
+
+.ceo-info {
+    text-align: center;
+    font-size: 13px;
+    color: #b5b5b5;
+}
+
+.ceo-quote {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 50px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #282528;
+}
+
+.ceo-quote::before {
+    content: '“';
+    /* добавь сюда свойство width */
+    /* width: 48px;
+    /* добавь сюда свойство height */
+    /* height: 48px; */
+    font-family: 'Source Sans Pro', sans-serif;
+    /* добавь сюда свойство font-size */
+    /* font-size: 150px; */
+    position: absolute;
+    top: 20px;
+    left: -45px;
+    color: #babdc175;
+}
 
 /* занятие 5 - секция 5 */
 /* занятие 6 - секция 6 (ХУТЕР) */
