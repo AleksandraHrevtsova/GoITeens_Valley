@@ -329,4 +329,212 @@ header {
 }
 
 /* занятие 5 - секция 5 */
+.team-intro {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  /* добавь сюда свойство text-align */
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.team-list {
+  width: 92%;
+  /* добавь сюда свойство margin для центрирования контента*/
+  margin: 0 auto;
+}
+
+.team-member {
+  position: relative;
+  width: 270px;
+}
+
+.member-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  /* добавь сюда свойство text-align */
+  text-align: center;
+  transition: 0.6s;
+}
+
+.member-position {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  /* добавь сюда свойство text-align */
+  text-align: center;
+}
+
+.member-photo {
+  width: 270px;
+  height: auto;
+  display: block;
+  /* добавь сюда свойство margin для центрирования контента*/
+  margin: 0 auto;
+}
+
+.overflow {
+  width: 270px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.hover-box {
+  display: none;
+  width: 270px;
+  height: 300px;
+  /* добавь сюда свойство background-color в соответствии с дизайном твоего проекта*/
+  background-color: #55c2169c;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.6s;
+  z-index: 1;
+}
+
+.team-member:hover .hover-box {
+  display: block;
+  /* измени цвет в свойстве box-shadow в соответствии с дизайном твоего проекта*/
+  box-shadow: 0px 0px 17px #1ab798;
+}
+
+.team-member:hover .member-name {
+  /* добавь сюда свойство color в соответствии с дизайном твоего проекта*/
+  color: #1ab798;
+  font-size: 24px;
+}
+
+.quote {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.member-social-link {
+  display: inline-block;
+  width: 43px;
+  height: 42px;
+  margin: 4px;
+  background-color: #4b4b4bab;
+  background-image: url(./img/facebook.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 5px;
+}
+
+.member-social-link:nth-of-type(2) {
+  background-image: url(./img/linkedin.png);
+}
+
+.member-social-link:nth-of-type(3) {
+  background-image: url(./img/twitter.png);
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  padding: 0;
+}
+
 /* занятие 6 - секция 6 (ХУТЕР) */
+.contacts-section {
+  /* добавь сюда свойство background-image */
+
+  /* добавь сюда свойство background-color */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.white-header {
+  /* добавь сюда свойство color в соответствии с дизайном своего проекта */
+
+  margin-bottom: 60px;
+}
+
+.footer-text {
+  width: 40%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080c7;
+  margin: 0 auto 40px auto;
+}
+
+.footer-link {
+  width: 43px;
+  height: 43px;
+  display: inline-block;
+  background-color: #3b5997;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* добавь сюда свойство border-radius */
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.footer-link:nth-of-type(1) {
+  /* добавь сюда свойство background-image */
+
+  background-color: #3ec2f3;
+}
+
+.footer-link:nth-of-type(2) {
+  /* добавь сюда свойство background-image */
+
+  background-color: #3ec2f3;
+}
+
+.footer-link:nth-of-type(3) {
+  /* добавь сюда свойство background-image */
+
+  background-color: #007ab9;
+}
+
+.footer-socials {
+  margin-bottom: 40px;
+}
+
+.phone {
+  color: #bface2;
+  margin-bottom: 12px;
+}
+
+.mail {
+  color: #bface2;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+.copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  /* добавь сюда свойство line-height */
+  line-height: 21px;
+  color: #808080c7;
+}
+
+.copyright {
+  padding-bottom: 24px;
+  text-align: center;
+}
